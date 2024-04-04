@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page1 {
+    height: 1000px;
+    width: 100%;
+    background-image: url(cup.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.left {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+
+.left li {
+    list-style: none;
+    font-size: 50px;
+    transition-property:color,letter-spacing,text-shadow,transform;
+    transition-duration: 2s;
+    transition-delay: .5s;
+    transform: rotate(360deg);
+}
+
+.left li:hover {
+    color: yellow;
+    letter-spacing: 2.5px;
+    text-shadow: 10px 10px 15px;
+
+
+}
+
+.middle {
+    position: absolute;
+    left: 35%;
+    top: 20px;
+}
+
+.middle li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.middle li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 5px 5px 30px;
+    font-size: 20px;
+    transition-property: color, letter-spacing, text-shadow,transform;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+.middle li a:hover {
+    color: yellow;
+    letter-spacing: 2.5px;
+    text-shadow: 10px 10px 15px;
+    
+
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.right li {
+    display: inline;
+    padding: 8px;
+}
+
+.navbtn {
+    color: white;
+    background-color: rgb(99, 60, 60);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 1px 1px 15px;
+    padding: 10px;
+    transition-property: color, letter-spacing, text-shadow;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+
+
+}
+
+.navbtn:hover {
+    color: yellow;
+    border-color: red;
+    letter-spacing: 2px;
+    text-shadow: 10px 10px 20px;
+}
+
+.heading {
+
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+    transition: text-shadow;
+    transition-property: color, letter-spacing, text-shadow;
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+}
+
+.heading h1:hover {
+    color: yellowgreen;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 15px;
+
+}
+
+.heading p {
+    font-size: 25px;
+    margin: 10px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.explore {
+    position: relative;
+    top: 45px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(99, 60, 60);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 2px 5px;
+    transition-property: color, letter-spacing;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+.explore:hover {
+    color: yellow;
+    border-color: red;
+    letter-spacing: 2px;
+}
+
+.page2 {
+    background-color: cornsilk;
+    width: 100%;
+    height: 1000px;
+    color: white;
+    border: 2px solid red;
+
+}
+
+.page2inside {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    border: 2px solid red;
+    margin: 10px 20px;
+    background-color: #a66221;
+    opacity: 0.9;
+    height: fit-content;
+    width: 300px;
+    border-radius: 10px;
+    transition-property: transform;  
+    transition-duration: 1s;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box img {
+    border-radius: 10px;
+    margin: 10px 0px 0px 15px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 100px;
+    transition-property: border, border-width;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+.box img:hover {
+    border-width: 3px;
+    border-color: red;
+}
+
+.coffeename {
+    text-align: center;
+}
+
+.box p {
+    padding: 5px;
+    text-align: center;
+}
+
+.rupees {
+    font-size: 25px;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 20px 35px;
+    color: white;
+    background-color: rgb(99, 60, 60);
+
+    border-radius: 10px;
+    cursor: pointer;
+    height: 35px;
+    box-shadow: 2px 2px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    transition-property: color, letter-spacing;
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+}
+
+.btn:hover {
+    color: yellow;
+    border-color: red;
+    letter-spacing: 2px;
+}
+
+.logo {
+    display: flex;
+    padding: 10px 25px;
+    margin: 25px 0px;
+    justify-content: space-around;
+}
+.photo img {
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 30px;
+}
+
+.photo img:hover {
+    border-color: red;
+    border-width: 3px;
+}
+
+.page3 {
+    border: 2px solid green;
+    height: 600px;
+    opacity: 0.9;
+    text-align: center;
+    width: 100%;
+    background-color: #a66221;
+
+}
+
+.page3container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    color: white;
+}
+
+.details:hover {
+    color: yellow;
+}
+
+.details h3 {
+    font-size: 35px;
+}
+
+.details li {
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.end span {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.end span:hover {
+    color: yellow;
+}
+.page2inside2{
+    display: flex;
+    justify-content: space-around;
+}
